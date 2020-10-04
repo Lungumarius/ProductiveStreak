@@ -1,0 +1,90 @@
+body{
+	padding: 0px;
+	background-image: url("../img/background1.jpg");
+
+}
+.motto{
+	color: white;
+	text-align: center;
+	margin-top: 10vh;
+}
+
+form{
+	color: white;
+	margin-top: 10%;
+	margin-left: 15%;
+	width: 150vh;
+}
+
+.btn{
+	 margin-top: 5vh;
+	 margin-right:33%;
+	 margin-left: 18%;
+	 background-color: #ff6200;
+
+
+}
+#register{
+	margin-left: 17.65%;
+}
+#register{}
+.btn:hover{
+	background-color: green;
+}
+#or{
+	margin-left: 19.65%;
+	margin-top: 5vh;
+	
+}
+/*.list-group{
+	display:flex;
+	text-align: right;
+	margin-right: 50vh;
+	margin-top: 25%;
+	width:40vh;
+	text-align: center;
+	
+}
+.main-content{
+	display: flex;
+}
+*/
+@media only screen and (max-width: 600px) {
+	form{
+		margin-left: 5%;
+		margin-right:5%;
+		width: 40vh;
+	}
+	
+.btn{
+  margin-right: 33%;
+  margin-left:40%;
+ 
+}
+#register{
+	margin-left: 39.65%;
+}
+#or{
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+
+	}
+@media only screen and (min-width: 600px) {
+
+.list-group{
+	display:flex;
+	text-align: right;
+	margin-right: 10vh;
+	margin-top: 25%;
+	width:40vh;
+	text-align: center;
+	
+}
+.main-content{
+	display: flex;
+}
+}
